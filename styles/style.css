@@ -1,0 +1,11 @@
+body {
+    background-color: #d8f3dc;
+}
+li {
+    display: inline;
+    padding: 8px;
+}
+#flex-container {
+    display: flex;
+    background-color: #415d43;
+}
