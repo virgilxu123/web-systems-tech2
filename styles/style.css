@@ -1,11 +1,16 @@
 body {
     background-color: #d8f3dc;
+    box-sizing: border-box;
 }
 li {
     display: inline;
     padding: 8px;
 }
-#flex-container {
+.flex-container-nav-bar {
     display: flex;
     background-color: #415d43;
+    align-items: center;
+}
+.links {
+    justify-content: center;
 }
