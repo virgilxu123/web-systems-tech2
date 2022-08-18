@@ -5,6 +5,15 @@ body {
 li {
     display: inline;
     padding: 8px;
+    font-weight: bold;
+}
+li a {
+    text-decoration: none;
+    color: #ffe6a7;
+}
+li:hover {
+    background-color: #111d13;
+    border-radius: 12px;
 }
 .flex-container-nav-bar {
     display: flex;
@@ -13,4 +22,14 @@ li {
 }
 .links {
     justify-content: center;
+}
+#logo a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    overflow: visible;
+    font-weight: 350;
+    text-shadow: 2px 2px #a44a3f;
 }
