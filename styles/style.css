@@ -1,7 +1,6 @@
 
 
 body {
-    background-color: #8fb996;
     box-sizing: border-box;
 }
 /* Nav-Bar*/
@@ -55,6 +54,6 @@ body {
         text-align: center;
         font-family: Kaushan Script;
         color: black;
-        text-shadow: 1px 1px #ffe6a7;
+        text-shadow: 1px 1px #709775;
     }
 /*Home*/
