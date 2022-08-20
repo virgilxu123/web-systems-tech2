@@ -2,6 +2,7 @@
 
 body {
     box-sizing: border-box;
+    background-color: #dad7cd;
 }
 /* Nav-Bar*/
 
@@ -56,4 +57,16 @@ body {
         color: black;
         text-shadow: 1px 1px #709775;
     }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    .flex-container * {
+        margin: 20px;
+    }
+
 /*Home*/
+
+/*Destinations*/
+    
+/*Destinations*/
