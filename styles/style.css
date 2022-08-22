@@ -3,6 +3,7 @@
 body {
     box-sizing: border-box;
     background-color: #dad7cd;
+    margin: 0;
 }
 /* Nav-Bar*/
 
@@ -48,13 +49,14 @@ body {
 
 /*Home*/
     #home {
-        margin-top: 7%;
+        margin: 7%;
+        
     }
-    #home p {
+    #home .heading {
         font-size: 30px;
         text-align: center;
         font-family: Kaushan Script;
-        color: black;
+        color: rgba(0, 0, 0, 0.9);
         text-shadow: 1px 1px #709775;
     }
     .flex-container {
@@ -64,9 +66,25 @@ body {
     .flex-container * {
         margin: 20px;
     }
+    .welcome {
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .about-san-miguel {
+        font-size: 23px;
+        font-family: Arial, sans-serif;
+        color: rgba(0, 0, 0, 0.7);
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        line-height: 1.6;
+        text-indent: 50px;
+    }
 
 /*Home*/
 
 /*Destinations*/
-    
+    #destinations {
+        border-top: .5px solid black;
+        background-color: #e3d5ca;
+    }
+
 /*Destinations*/
